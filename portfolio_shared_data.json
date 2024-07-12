@@ -1,0 +1,175 @@
+{
+    "basic_info": {
+      "name": "Mansi Mistry",
+      "titles": [ "Software Developer", "Cloud Developer", "Mobile App Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/MansiLad",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mansimistry76/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "portfolio/myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
+          "level": "85"
+        },
+       
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        }, 
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "95"
+        }, 
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "75"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "90"
+        },
+        {
+          "name": "React.js",
+          "class": "devicon-react-original",
+          "level": "90"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain",
+          "level": "75"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "85"
+        },
+        {
+          "name": "Flask",
+          "class": "devicon-flask-original",
+          "level": "80"
+        },
+        {
+          "name": "GraphQL",
+          "class": "devicon-graphql-plain",
+          "level": "80"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "85"
+        },
+       
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain",
+          "level": "95"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain",
+          "level": "80"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "90"
+        },
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
+          "level": "90"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "90"
+        },
+        {
+          "name": "GitHub",
+          "class": "devicon-github-original",
+          "level": "85"
+        },
+        {
+          "name": "Jenkins",
+          "class": "devicon-jenkins-line",
+          "level": "85"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "Tailwind",
+          "class": "devicon-tailwindcss-plain",
+          "level": "80"
+        },
+        {
+          "name": "Microsoft Azure",
+          "class": "devicon-azure-plain",
+          "level": "85"
+        },
+        {
+          "name": "Amazon Web Services",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "90"
+        },
+        {
+          "name": "Google Cloud Platform",
+          "class": "devicon-googlecloud-plain",
+          "level": "80"
+        }, 
+        {
+          "name": "Terraform",
+          "class": "devicon-terraform-plain",
+          "level": "75"
+        },
+        {
+          "name": "Matplotlib",
+          "class": "devicon-matplotlib-plain",
+          "level": "80"
+        },
+        {
+          "name": "Pandas",
+          "class": "devicon-pandas-plain",
+          "level": "85"
+        },
+        {
+          "name": "NumPy",
+          "class": "devicon-numpy-plain",
+          "level": "85"
+        },
+        {
+          "name": "Scikit-Learn",
+          "class": "devicon-scikitlearn-plain",
+          "level": "80"
+        }
+      ]
+    }
+  }
