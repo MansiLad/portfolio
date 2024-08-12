@@ -1,302 +1,308 @@
 {
-    "basic_info": {
-      "description_header": "Hi 👋",
-      "description": "I am Mansi Mistry, a recent graduate from Stevens Institute of Technology with a Master of Science in Computer Science, specializing in cloud computing. My journey in technology is marked by a relentless pursuit of knowledge and practical application. I have honed my skills across various languages such as Python, C++, JavaScript, and technologies including AWS, Azure, Docker, and Kubernetes. ",
-      
-      "description2": "My industry experience includes significant roles where I have led projects to optimize processes, enhance user experiences, and develop efficient systems. At Stevens, I collaborated with the Systems team to migrate student records to Workday, developed complex database queries, and automated data collection processes. During my tenure at Persistent Computer Services and The Sparks Foundation, I designed and implemented applications that resulted in significant operational cost reductions and improved user engagement. My projects reflect my ability to leverage modern technologies to solve real-world problems, from developing a live football statistics app using React.js and GraphQL to enhancing system performance with Azure Kubernetes Service. As I actively seek full-time opportunities to further hone my skills and embark on innovative projects, I invite you to explore my portfolio and witness firsthand my journey in the dynamic world of technology.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience", 
-        "education": "Education",
-        "resume": "Resume"
-      }
+  "basic_info": {
+    "description_header": "Hi 👋",
+    "description": "I am Mansi Mistry, a recent graduate from Stevens Institute of Technology with a Master of Science in Computer Science, specializing in cloud computing. My journey in technology is marked by a relentless pursuit of knowledge and practical application. I have honed my skills across various languages such as Python, C++, JavaScript, and technologies including AWS, Azure, Docker, and Kubernetes. ",
+    
+    "description2": "My industry experience includes significant roles where I have led projects to optimize processes, enhance user experiences, and develop efficient systems. At Stevens, I collaborated with the Systems team to migrate student records to Workday, developed complex database queries, and automated data collection processes. During my tenure at Persistent Computer Services and The Sparks Foundation, I designed and implemented applications that resulted in significant operational cost reductions and improved user engagement. My projects reflect my ability to leverage modern technologies to solve real-world problems, from developing a live football statistics app using React.js and GraphQL to enhancing system performance with Azure Kubernetes Service. As I actively seek full-time opportunities to further hone my skills and embark on innovative projects, I invite you to explore my portfolio and witness firsthand my journey in the dynamic world of technology.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience", 
+      "education": "Education",
+      "resume": "Resume"
+    }
+  },
+  "projects": [
+    {
+      "title": "Live Football Statistics App",
+      "startDate": "12/2022 – 01/2023",
+      "description": [
+        "Spearheaded in the agile development of 'AllFootball,' a React.js and GraphQL-based app providing live football league statistics. ",
+        "Achieved efficient deployment of frontend and backend using Docker on Microsoft Azure, enhancing user engagement by 30%. ",
+        "Utilized Kubernetes for orchestration to ensure efficient management and scaling of the application's infrastructure. "
+      ],
+      "images": [
+        "images/portfolio/project/project1.webp"
+      ],
+      "url": "https://github.com/MansiLad/AllFootball",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React.JS"
+        },
+        {
+          "class": "devicon-graphql-plain",
+          "name": "GraphQL"
+        },
+        {
+          "class": "devicon-azure-plain",
+          "name": "Microsoft Azure"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Kubernetes"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Live Football Statistics App",
-        "startDate": "12/2022 – 01/2023",
-        "description": [
-          "Spearheaded in the agile development of 'AllFootball,' a React.js and GraphQL-based app providing live football league statistics. ",
-          "Achieved efficient deployment of frontend and backend using Docker on Microsoft Azure, enhancing user engagement by 30%. ",
-          "Utilized Kubernetes for orchestration to ensure efficient management and scaling of the application's infrastructure. "
-        ],
-        "images": [
-          "images/portfolio/project/project1.webp"
-        ],
-        "url": "https://github.com/MansiLad/AllFootball",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React.JS"
-          },
-          {
-            "class": "devicon-graphql-plain",
-            "name": "GraphQL"
-          },
-          {
-            "class": "devicon-azure-plain",
-            "name": "Microsoft Azure"
-          },
-          {
-            "class": "devicon-docker-plain",
-            "name": "Docker"
-          },
-          {
-            "class": "devicon-kubernetes-plain",
-            "name": "Kubernetes"
-          },
-          {
-            "class": "devicon-redis-plain",
-            "name": "Redis"
-          }
-        ]
-      },
-      {
-        "title": "Vehicle Identification System ",
-        "startDate": "05/2021 – 04/2022",
-        "description":[
-          "Architected a cloud-based solution for vehicle recognition powered by YOLO v4 to deliver 80% accuracy rate. ",
-          "Implemented Google Cloud Vision API to execute pre-trained models for vehicle detection and feature recognition. ",
-          "Ensured robust data handling and scalability by utilizing Google Cloud Storage to efficiently store and manage results."
-        ],
-        "images": [
-          "images/portfolio/project/project2.webp"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-googlecloud-plain",
-            "name": "Google Cloud Vision API"
-          }
-        ]
-      },
-      {
-        "title": "Performance Enhancement with Azure Kubernetes Service",
-        "startDate": "10/2021 – 11/2021",
-        "description":[
-          "Implemented performance monitoring using Application Insights to provide deep insights into application health and user activities. ",
-          "Established auto-scaling AKS and VM Scale Sets to efficiently handle varying loads and optimize resource utilization. ",
-          "Automated performance fixes and set up proactive alerts with Azure Runbooks to improve system reliability and uptime."
-        ],
-        "images": [
-          "images/portfolio/project/project3.webp"
-        ],
-        "url": "https://github.com/MansiLad/UdacityProject4-EnhancingApplication",
-        "technologies": [
-          {
-            "class": "devicon-azure-plain",
-            "name": "Microsoft Azure"
-          },
-          {
-            "class": "devicon-docker-plain",
-            "name": "Docker"
-          },
-          {
-            "class": "devicon-kubernetes-plain",
-            "name": "Azure Kubernetes Service"
-          }
-        ]
-      },
-      {
-        "title": "TechConf Registration Website Optimization and Migration to Azure ",
-        "startDate": "09/2021 – 10/2021",
-        "description":[
-          "Migrated and scaled conference registration site using App Services and PostgreSQL for improved performance and reliability. ",
-          "Refactored backend notifications with Azure Functions and Service Bus to cut response times and prevent HTTP timeout issues. ",
-          "Conducted cost analysis and optimized resources to achieve cost-effectiveness with high performance and availability."
-        ],
-        "images": [
-          "images/portfolio/project/project4.webp"
-        ],
-        "url": "https://github.com/MansiLad/UdacityProject3-MigrateApps",
-        "technologies": [
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-          },
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-azure-plain",
-            "name": "Microsoft Azure"
-          }
-        ]
-      },
-      {
-        "title": "Neighborly App Deployment with Azure Functions and Cosmos DB",
-        "startDate": "08/2021 – 09/2021",
-        "description":[
-          "Engineered community advertisement platform in Flask and Azure Functions to promote local business visibility and engagement. ",
-          "Configured Cosmos DB for dynamic content management and integrated with Azure Functions for seamless data operations.",
-          "Implemented CI/CD pipelines to ensure rapid deployment and high availability of application updates."
-        ],
-        "images": [
-          "images/portfolio/project/project5.webp"
-        ],
-        "url": "https://github.com/MansiLad/UdacityProject2-NeighborlyApp",
-        "technologies": [
-          {
-            "class": "devicon-azure-plain",
-            "name": "Microsoft Azure"
-          },
-          {
-            "class": "devicon-flask-original",
-            "name": "Flask"
-          },
-          {
-            "class": "devicon-cosmosdb-plain",
-            "name": "CosmoDB"
-          }
-        ]
-      },
-      {
-        "title": "Article CMS Development with Flask ",
-        "startDate": "07/2021 – 08/2021 ",
-        "description":[
-          "Developed and launched a Python Flask application to enable secure article creation and management using OAuth2 with MSAL. ",
-          "Enhanced robust data management and media handling using Azure SQL Server and Azure Blob Storage to boost app scalability. ",
-          "Refined system reliability through comprehensive logging and proactive error handling to optimize user experience and interaction."
-        ],
-        "images": [
-          "images/portfolio/project/project6.webp"
-        ],
-        "url": "https://github.com/MansiLad/UdacityProject1-CMS",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-flask-original",
-            "name": "Flask"
-          },
-          {
-            "class": "devicon-azure-plain",
-            "name": "Microsoft Azure"
-          }
-        ]
-      }
-      ,
-      {
-        "title": "Online Library Management System",
-        "startDate": "11/2020 – 12/2020",
-        "description":[
-          "Led launch of a PHP and MySQL-based library management system to streamline book management and transactions. ",
-          "Prepared a robust backend functionality for book cataloging, borrower management, and transaction tracking. ",
-          "Created user-friendly interface and responsive design for optimal user experience by utilizing Bootstrap for frontend development."
-        ],
-        "images": [
-          "images/portfolio/project/project7.webp"
-        ],
-        "url": "https://github.com/MansiLad/OnlineLibraryManagement",
-        "technologies": [
-          {
-            "class": "devicon-php-plain",
-            "name": "PHP"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-mysql-plain",
-            "name": "MySQL"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "Office of Graduate Education, Stevens Institute of Technology",
-        "title": "Graduate Analyst",
-        "duration": "10/2022 - 05/2024",
+    {
+      "title": "Vehicle Identification System ",
+      "startDate": "05/2021 – 04/2022",
+      "description":[
+        "Architected a cloud-based solution for vehicle recognition powered by YOLO v4 to deliver 80% accuracy rate. ",
+        "Implemented Google Cloud Vision API to execute pre-trained models for vehicle detection and feature recognition. ",
+        "Ensured robust data handling and scalability by utilizing Google Cloud Storage to efficiently store and manage results."
+      ],
+      "images": [
+        "images/portfolio/project/project2.webp"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-googlecloud-plain",
+          "name": "Google Cloud Vision API"
+        }
+      ]
+    },
+    {
+      "title": "Performance Enhancement with Azure Kubernetes Service",
+      "startDate": "10/2021 – 11/2021",
+      "description":[
+        "Implemented performance monitoring using Application Insights to provide deep insights into application health and user activities. ",
+        "Established auto-scaling AKS and VM Scale Sets to efficiently handle varying loads and optimize resource utilization. ",
+        "Automated performance fixes and set up proactive alerts with Azure Runbooks to improve system reliability and uptime."
+      ],
+      "images": [
+        "images/portfolio/project/project3.webp"
+      ],
+      "url": "https://github.com/MansiLad/UdacityProject4-EnhancingApplication",
+      "technologies": [
+        {
+          "class": "devicon-azure-plain",
+          "name": "Microsoft Azure"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Azure Kubernetes Service"
+        }
+      ]
+    },
+    {
+      "title": "TechConf Registration Website Optimization and Migration to Azure ",
+      "startDate": "09/2021 – 10/2021",
+      "description":[
+        "Migrated and scaled conference registration site using App Services and PostgreSQL for improved performance and reliability. ",
+        "Refactored backend notifications with Azure Functions and Service Bus to cut response times and prevent HTTP timeout issues. ",
+        "Conducted cost analysis and optimized resources to achieve cost-effectiveness with high performance and availability."
+      ],
+      "images": [
+        "images/portfolio/project/project4.webp"
+      ],
+      "url": "https://github.com/MansiLad/UdacityProject3-MigrateApps",
+      "technologies": [
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-azure-plain",
+          "name": "Microsoft Azure"
+        }
+      ]
+    },
+    {
+      "title": "Neighborly App Deployment with Azure Functions and Cosmos DB",
+      "startDate": "08/2021 – 09/2021",
+      "description":[
+        "Engineered community advertisement platform in Flask and Azure Functions to promote local business visibility and engagement. ",
+        "Configured Cosmos DB for dynamic content management and integrated with Azure Functions for seamless data operations.",
+        "Implemented CI/CD pipelines to ensure rapid deployment and high availability of application updates."
+      ],
+      "images": [
+        "images/portfolio/project/project5.webp"
+      ],
+      "url": "https://github.com/MansiLad/UdacityProject2-NeighborlyApp",
+      "technologies": [
+        {
+          "class": "devicon-azure-plain",
+          "name": "Microsoft Azure"
+        },
+        {
+          "class": "devicon-flask-original",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-cosmosdb-plain",
+          "name": "CosmoDB"
+        }
+      ]
+    },
+    {
+      "title": "Article CMS Development with Flask ",
+      "startDate": "07/2021 – 08/2021 ",
+      "description":[
+        "Developed and launched a Python Flask application to enable secure article creation and management using OAuth2 with MSAL. ",
+        "Enhanced robust data management and media handling using Azure SQL Server and Azure Blob Storage to boost app scalability. ",
+        "Refined system reliability through comprehensive logging and proactive error handling to optimize user experience and interaction."
+      ],
+      "images": [
+        "images/portfolio/project/project6.webp"
+      ],
+      "url": "https://github.com/MansiLad/UdacityProject1-CMS",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-flask-original",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-azure-plain",
+          "name": "Microsoft Azure"
+        }
+      ]
+    }
+    ,
+    {
+      "title": "Online Library Management System",
+      "startDate": "11/2020 – 12/2020",
+      "description":[
+        "Led launch of a PHP and MySQL-based library management system to streamline book management and transactions. ",
+        "Prepared a robust backend functionality for book cataloging, borrower management, and transaction tracking. ",
+        "Created user-friendly interface and responsive design for optimal user experience by utilizing Bootstrap for frontend development."
+      ],
+      "images": [
+        "images/portfolio/project/project7.webp"
+      ],
+      "url": "https://github.com/MansiLad/OnlineLibraryManagement",
+      "technologies": [
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Office of Graduate Education, Stevens Institute of Technology",
+      "title": "Graduate Analyst",
+      "duration": "10/2022 - 05/2024",
 
-        
-        "technologies": [
-          "Python", "Data Analysis", "Data Visualization", "PowerBI"
-        ],
-        "outcomes": [
-          "Collaborated with Systems team to migrate student records to Workday, optimizing data extraction and cleansing from the Slate CRM", 
-          "Developed complex database queries to filter over 10,000 student applications, creating detailed reports for administrative use", 
-          "Automated data collection from 50+ websites for student fairs, boosting efficiency by 80% compared to manual method", 
-          "Built Python CLI application to list master's students on probation and created PowerBI dashboards to support strategic administrative decisions"
-        ]
-      },
+      
+      "technologies": [
+        "Python", "Data Analysis", "Data Visualization", "PowerBI"
+      ],
+      "outcomes": [
+          "Optimized data extraction and cleansing from Slate CRM, facilitating student records migration to Workday",
+          "Created detailed reports for administrative use by developing complex database queries to filter over 10,000 student applications",
+          "Boosted data collection efficiency for student fairs by 80% through automated pipeline from 50+ websites",
+          "Built Python CLI application to list master's students on probation and created dashboards to support strategic administrative decisions",
+          "Proficiently managed and meticulously reviewed 200+ applications a week on Slate to ensure accuracy, provided relevant feedback",
+          "Worked with web development team to improve site usability and content, enhanced communication with prospective student",
+          "Excellent communication skills, both written and verbal, aided in clear and effective interactions with over 150 applicants a week",
+          "Demonstrated strong attention to detail and organization skills in maintaining accurate records, tracking applicant progress, and generating reports to support data-driven decision-making"
+      ]
+    },
 
-      {
-        "company": "Persistent Computer Services",
-        "title": "Software Engineer Trainee",
-        "duration": "06/2021 – 01/2022",
+    {
+      "company": "Persistent Computer Services",
+      "title": "Software Engineer",
+      "duration": "03/2021 – 05/2022",
 
-        
-        "technologies": [
-          "JavaScript", "Node.JS", "Flutter", "API"
-        ], 
-        "outcomes": [
-          "Designed and implemented Flutter-based mobile app for e-commerce using Node.js, ensuring seamless integration and robust backend",
-          "Achieved 20% operational cost reduction, 40% efficiency increase through optimized maintenance processes facilitated by Node.js",
-          "Enhanced user experience with Material Design principles and Flutter widgets, leveraging Node.js for responsive interface improvements and resolving technical issues with 30% less downtime and 25% faster processing"
-        ]
-      },
+      
+      "technologies": [
+        "JavaScript", "Node.JS", "Flutter", "API", "Azure"
+      ], 
+      "outcomes": [
+        "Collaborated on developing a full-scale e-commerce website and mobile application, implementing OAuth2 for secure authentication and leveraging Azure services to maintain robust data management and seamless user experience across platforms",
+        "Engineered Redis caching and Azure Blob Storage solutions to optimize application performance and storage, reducing page load times by 50% and enhancing data retrieval speed, leading to a 30% increase in user retention",
+        "Implemented Application Insights and Azure Analytics to monitor user engagement and application health, resulting in data-driven enhancements that boosted site engagement by 25% and significantly improved overall system performance",
+        "Enhanced the website's scalability and performance through comprehensive logging, proactive error handling, and automated performance fixes using Azure Runbooks, resulting in increased system uptime and reliability",
+        "Leveraged GitHub for code versioning and collaboration, conducting regular debugging sessions and implementing CI/CD pipelines, which reduced deployment times by 40% and enhanced code quality and stability"
+      ]
+    },
 
-      {
-        "company": "The Sparks Foundation ",
-        "title": "Web Designing and Development Intern",
-        "duration": "01/2021 – 02/2021",
+    {
+      "company": "The Sparks Foundation ",
+      "title": "Web Designing and Development Intern",
+      "duration": "01/2021 – 02/2021",
 
-        
-        "technologies": [
-          "Django", "Microsoft Azure", "Azure Web Services", "CRUD"
-        ], 
-        "outcomes": [
-          "Developed dynamic blogging platform using Django and incorporated advanced user interaction features to enhance user experience",
-          "Launched platform on Microsoft Azure WebApp Service, increasing monthly active users by 20%, and implemented robust CRUD operations both blogs and user accounts to optimize functionality and user engagement",
-          "Completed code reviews, debugging sessions, and integration processes to maintain code quality and integrity"
-        ]
-      },
+      
+      "technologies": [
+        "Django", "Microsoft Azure", "Azure Web Services", "CRUD"
+      ], 
+      "outcomes": [
+        "Developed dynamic blogging platform using Django and incorporated advanced user interaction features to enhance user experience",
+        "Launched platform on Microsoft Azure WebApp Service, increasing monthly active users by 20%, and implemented robust CRUD operations both blogs and user accounts to optimize functionality and user engagement",
+        "Completed code reviews, debugging sessions, and integration processes to maintain code quality and integrity"
+      ]
+    },
 
-      {
-        "company": "Thakur College of Engineering and Technology",
-        "title": "Database Intern",
-        "duration": "05/2020 – 08/2020",
+    {
+      "company": "Thakur College of Engineering and Technology",
+      "title": "Database Intern",
+      "duration": "05/2020 – 08/2020",
 
-        
-        "technologies": [
-          "MySQL", "Java"
-        ], 
-        "outcomes": [
-          "Designed ER model for student database system, created structured framework to manage incoming and current student data",
-          "Developed frontend using Java and backend with MySQL, ensuring cohesive and functional user interface and database interaction",
-          "Implemented comprehensive functionalities for managing student records which enhanced system's overall efficiency and reliability",
-          "Completed code reviews, debugging sessions, and integration processes to maintain code quality and integrity"
-        ]
-      }
-    ], 
-    "education":[
-      {
-        "university": "Stevens Institute of Technology",
-        "duration": "2022 - 2024",
-        "degree": "Master of Science",
-        "major": "Computer Science",
-        "logo":"images/portfolio/logo/sit_logo.png",
-        "relevant_courses": ["Web Programming - I", "Web Programming - II","Database Management Systems", "Data Structures and Algorithms", "Mathematics for Machine Learning", "Agile Methods for Software Development", "Software Requirements Analysis and Engineering"]
-      },
-      {
-        "university": "University of Mumbai",
-        "duration": "2018 - 2022",
-        "degree": "Bachelor of Engineering",
-        "major": "Electronics and Telecommunication",
-        "logo":"images/portfolio/logo/tcet_logo.jpeg",
-        "relevant_courses": ["Cloud Computing", "Object-Oriented Programming", "Software Process Automation", "Social Network Analysis"]
-      }
-    ],
-    "resume": "resume/MansiMistry-Resume.pdf"
-  }
+      
+      "technologies": [
+        "MySQL", "Java"
+      ], 
+      "outcomes": [
+        "Designed ER model for student database system, created structured framework to manage incoming and current student data",
+        "Developed frontend using Java and backend with MySQL, ensuring cohesive and functional user interface and database interaction",
+        "Implemented comprehensive functionalities for managing student records which enhanced system's overall efficiency and reliability",
+        "Completed code reviews, debugging sessions, and integration processes to maintain code quality and integrity"
+      ]
+    }
+  ], 
+  "education":[
+    {
+      "university": "Stevens Institute of Technology",
+      "duration": "2022 - 2024",
+      "degree": "Master of Science",
+      "major": "Computer Science",
+      "logo":"images/portfolio/logo/sit_logo.png",
+      "relevant_courses": ["Web Programming - I", "Web Programming - II","Database Management Systems", "Data Structures and Algorithms", "Mathematics for Machine Learning", "Agile Methods for Software Development", "Software Requirements Analysis and Engineering"]
+    },
+    {
+      "university": "University of Mumbai",
+      "duration": "2018 - 2022",
+      "degree": "Bachelor of Engineering",
+      "major": "Electronics and Telecommunication",
+      "logo":"images/portfolio/logo/tcet_logo.jpeg",
+      "relevant_courses": ["Cloud Computing", "Object-Oriented Programming", "Software Process Automation", "Social Network Analysis"]
+    }
+  ],
+  "resume": "resume/MansiMistry-Resume.pdf"
+}
