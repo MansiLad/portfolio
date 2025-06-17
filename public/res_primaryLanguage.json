@@ -214,24 +214,12 @@
       }
     ],
     "experience": [
-            {
-        "company": "Intellect Design Arena Inc.",
-        "title": "Software Developer",
-        "duration": "09/2024 - Present",
-        "technologies": [
-          "Angular", "MySql", "API", "AWS"
-        ],
-        "outcomes": [
-            "Collaborated with the team to architect scalable API solutions with iTurmeric (propriety), facilitating quick data retrieval",
-            "Implemented and tested frontend using Angular, ensuring smooth interaction with clients APIs, enhancing the overall user experience",
-            "Enhanced process automation and operational efficiency by integrating Xponent AI’s intelligent processing capabilities",
-            "Integrated Purple Fabric AI’s advanced data processing capabilities to enhance insurance claim evaluations, automate repetitive tasks, enabling insurers to assess risk profiles and optimize policy recommendations based on client data patterns",
-        ]
-      },
       {
         "company": "Office of Graduate Education, Stevens Institute of Technology",
         "title": "Graduate Analyst",
         "duration": "10/2022 - 05/2024",
+
+        
         "technologies": [
           "Python", "Data Analysis", "Data Visualization", "PowerBI"
         ],
@@ -251,11 +239,13 @@
         "company": "Persistent Computer Services",
         "title": "Software Engineer",
         "duration": "03/2021 – 05/2022",
+
+        
         "technologies": [
           "JavaScript", "Node.JS", "Flutter", "API", "Azure"
         ], 
         "outcomes": [
-          "Collaborated on developing a full-scale e-commerce website and mobile application, creating the mobile app using Flutter with features mirroring the website, including secure authentication, product browsing, and seamless checkout processes across platforms ",
+          "Collaborated on developing a full-scale e-commerce website and mobile application, implementing OAuth2 for secure authentication and leveraging Azure services to maintain robust data management and seamless user experience across platforms",
           "Engineered Redis caching and Azure Blob Storage solutions to optimize application performance and storage, reducing page load times by 50% and enhancing data retrieval speed, leading to a 30% increase in user retention",
           "Implemented Application Insights and Azure Analytics to monitor user engagement and application health, resulting in data-driven enhancements that boosted site engagement by 25% and significantly improved overall system performance",
             "Enhanced the website's scalability and performance through comprehensive logging, proactive error handling, and automated performance fixes using Azure Runbooks, resulting in increased system uptime and reliability",
