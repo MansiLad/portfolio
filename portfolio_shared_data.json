@@ -60,19 +60,19 @@
           "level": "90"
         },
         {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain",
-          "level": "75"
+          "name": "Angular.js",
+          "class": "devicon-angular-plain",
+          "level": "90"
+        },
+        {
+          "name": "Flutter",
+          "class": "devicon-flutter-plain",
+          "level": "90"
         },
         {
           "name": "Django",
           "class": "devicon-django-plain",
           "level": "85"
-        },
-        {
-          "name": "Flask",
-          "class": "devicon-flask-original",
-          "level": "80"
         },
         {
           "name": "GraphQL",
